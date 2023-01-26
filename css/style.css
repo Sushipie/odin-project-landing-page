@@ -1,0 +1,148 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo {
+  display: flex;
+  color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo p {
+  margin-right: auto;
+  margin-left: 3rem;
+}
+
+.logo nav {
+  display: inline;
+}
+
+.logo li {
+  list-style: none;
+  float: left;
+  margin-right: 3rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.logo a:hover {
+  color: #3882f6;
+}
+
+.banner .container {
+  display: flex;
+  padding: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #1f2937;
+  color: #f9faf8;
+  position: relative;
+}
+
+.banner .container .banner-text {
+  width: 50%;
+  height: 50%;
+  padding: 1rem;
+}
+
+.banner .container .button-1 {
+  background-color: #3882f6;
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.banner .container .button-1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner .container .banner-image {
+  padding: 1rem;
+  object-fit: fill;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.features .container {
+  display: flex;
+  padding: 8rem;
+  background-color: #f9faf8;
+  color: black;
+  background-size: cover;
+  position: relative;
+}
+
+.features .container .feature {
+  width: 33%;
+  padding: 1rem;
+}
+
+.feature-icon
+{
+  border: 3px solid #3882f6;
+  border-radius: 5%;
+  height: 10rem;
+}
+
+.feature-text
+{
+  text-align: center;
+}
+
+.quote .container {
+  background-color: #e5e7eb;
+  color: black;
+  background-size: cover;
+  position: relative;
+  text-align: left;
+}
+
+.quote .container {
+  padding: 8rem;
+  font-style: italic;
+}
+
+.quote .container .sayer {
+  text-align: right;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cta .container {
+  padding: 8rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.cta .container .button-2 {
+  border-color: white;
+  border-radius: 4px;
+  border: 1px solid;
+  width: 5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.cta .container .button-2 a {
+  text-decoration: none;
+  color: white;
+}
